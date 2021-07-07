@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Modificando HTML #02</title>
+    <link rel='stylesheet' href='css/estilo.css'>
+</head>
+
+<body class='conteudo exercicio'>
+    <div>
+        <p>Texto Inicial</p>
+    </div>
+    <script>
+        const div = document.querySelector('div')
+        div.innerHTML='Texto Alterado'//substitui tudo dentro do selecionado por algo especificado
+        //div.outerHTML='texto goda' // substitui o que foi selecionado e por algo
+        div.insertAdjacentElement('before after begin, before after end', 'elemento')
+
+    </script>
+</body>
+
+</html>
